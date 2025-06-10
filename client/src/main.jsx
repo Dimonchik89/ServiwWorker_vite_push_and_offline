@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
+// оставлять его в случаи регистрации воркера но без подписки
 // if ('serviceWorker' in navigator) {
 //   // navigator.serviceWorker.register('/sw.js') // для продакшин режима
 //   navigator.serviceWorker.register('/sw-dev.js') // для тестов в режиме разработки
